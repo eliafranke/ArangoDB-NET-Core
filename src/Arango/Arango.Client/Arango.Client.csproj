@@ -6,8 +6,11 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>ArangoDB-NET-Core</PackageId>
     <Title>Arango.Client .NET Core</Title>
-    <Authors>yojimbo87,eliafranke</Authors>
+    <Authors>yojimbo87, eliafranke</Authors>
     <Company> </Company>
+    <PackageProjectUrl>https://github.com/eliafranke/ArangoDB-NET-Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eliafranke/ArangoDB-NET-Core.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
