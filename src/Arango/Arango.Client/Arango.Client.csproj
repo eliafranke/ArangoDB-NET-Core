@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>ArangoDB-NET-Core</PackageId>
+    <Title>Arango.Client .NET Core</Title>
+    <Authors>yojimbo87,eliafranke</Authors>
+    <Company> </Company>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="RestSharp" Version="108.0.2" />
-  </ItemGroup>
 
 </Project>
