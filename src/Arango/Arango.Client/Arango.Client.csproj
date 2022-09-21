@@ -11,6 +11,7 @@
     <PackageProjectUrl>https://github.com/eliafranke/ArangoDB-NET-Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/eliafranke/ArangoDB-NET-Core.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
