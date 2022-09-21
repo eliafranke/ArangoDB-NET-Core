@@ -10,7 +10,7 @@ namespace Arango.Tests
     public class CollectionOperationsTests : IDisposable
     {
         #region Create operations
-    	
+        
         [Test()]
         public void Should_create_document_collection()
         {
@@ -79,8 +79,8 @@ namespace Arango.Tests
             Assert.AreEqual(ACollectionType.Document, createResult.Value.Enum<ACollectionType>("type"));
 
 
-			// create documents and test if their key are incremented accordingly
-			
+            // create documents and test if their key are incremented accordingly
+            
             var newDocument = new Dictionary<string, object>()
                 .String("foo", "some string")
                 .Document("bar", new Dictionary<string, object>().String("foo", "string value"));

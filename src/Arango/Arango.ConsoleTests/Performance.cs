@@ -120,7 +120,7 @@ namespace Arango.ConsoleTests
             ServicePointManager.UseNagleAlgorithm = false;
             
             var client = new RestClient("http://localhost:8529");
-            var request = new RestRequest("_db/" + Database.TestDatabaseGeneral + "/_api/document", Method.POST);
+            var request = new RestRequest("_db/" + Database.TestDatabaseGeneral + "/_api/document", Method.Post);
             request.AddParameter("collection", Database.TestDocumentCollectionName);
             request.AddBody(jsonEntity);
             
